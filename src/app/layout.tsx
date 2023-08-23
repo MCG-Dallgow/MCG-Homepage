@@ -1,5 +1,6 @@
 import Header from "../components/header";
 import Wrapper from "../components/wrapper";
+import Footer from "../components/footer";
 
 // These styles apply to every route in the application
 import "../styles/globals.css";
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className="flex flex-col">
         <Header />
         <Wrapper>{children}</Wrapper>
+        <Footer />
       </body>
     </html>
   );

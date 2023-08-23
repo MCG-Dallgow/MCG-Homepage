@@ -12,6 +12,7 @@ export default {
         'dropdownhover': '#405d42',
         'background': '#c5dbc1',
         'link': '#81d742',
+        'linkactive': '#72a94a',
       }
     },
   },
