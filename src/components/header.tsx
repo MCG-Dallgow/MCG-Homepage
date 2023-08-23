@@ -25,7 +25,7 @@ export default function Header() {
         </Link>
       </div>
       <nav className="bg-nav">
-        <ul className="mx-auto flex w-2/3 flex-row py-1">
+        <ul className="mx-auto mb-0 flex w-2/3 flex-row py-1">
           <NavLink title="Start" href="/" />
           <NavLink title="Unsere Schule" href="/unsere-schule">
             <NavLink title="Schulleben" href="/unsere-schule/schulleben" />
