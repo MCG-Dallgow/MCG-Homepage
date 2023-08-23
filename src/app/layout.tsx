@@ -1,5 +1,8 @@
 import Header from "../components/header";
 
+// These styles apply to every route in the application
+import "../styles/globals.css";
+
 export const metadata = {
   title: "MCG Dallgow",
   description: "Die Homepage des Marie-Curie-Gymnasiums Dallgow-Döberitz",
