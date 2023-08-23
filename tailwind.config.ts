@@ -10,6 +10,8 @@ export default {
         'dropdown': '#486b4a',
         'active': '#a2e572',
         'dropdownhover': '#405d42',
+        'background': '#c5dbc1',
+        'link': '#81d742',
       }
     },
   },

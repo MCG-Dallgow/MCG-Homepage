@@ -5,12 +5,13 @@ export default function Page() {
     <div>
       <h1>Unsere Schule</h1>
       <section>
-        <h3>Wer sind wir?</h3>
+        <h2>Wer sind wir?</h2>
         <Image
           src="/images/mcg-logo.webp"
           alt="MCG Logo"
           width="200"
           height="200"
+          className="float-right"
         />
         <p>
           Die gesamte Schulgemeinschaft des Marie-Curie-Gymnasiums in
@@ -29,7 +30,7 @@ export default function Page() {
         </p>
       </section>
       <section>
-        <h3>Unsere Schwerpunkte</h3>
+        <h2>Unsere Schwerpunkte</h2>
         <p>
           Dem Namen Marie Curie verpflichtet, legen wir einerseits großen Wert
           auf die Ausbildung in den MINT-Fächern (Mathematik, Informatik,
@@ -51,7 +52,7 @@ export default function Page() {
         </p>
       </section>
       <section>
-        <h3>Schulleben</h3>
+        <h2>Schulleben</h2>
         <p>
           Uns liegt ein interessantes und abwechslungsreiches Schulleben stark
           am Herzen. Ziele dabei sind:
@@ -80,14 +81,15 @@ export default function Page() {
           Detailinformationen erwarten Sie auf den nächsten Seiten unserer
           Homepage.
         </p>
+        <br />
         <p>
           <i>Die Schulgemeinschaft des Marie-Curie-Gymnasiums</i>
         </p>
         <Image
           src="/images/mintec-logo.webp"
           alt="MINT-EC Logo"
-          width="490"
-          height="225"
+          width={980 / 3}
+          height={450 / 3}
         />
       </section>
     </div>

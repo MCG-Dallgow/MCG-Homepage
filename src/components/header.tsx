@@ -5,7 +5,7 @@ import NavLink from "./navlink";
 
 export default function Header() {
   return (
-    <header className="bg-header">
+    <header className="bg-header shadow-black">
       <div className="mx-auto flex w-2/3 flex-row py-4">
         <Link href="/">
           <Image
@@ -20,8 +20,8 @@ export default function Header() {
           href="/"
           className="my-auto flex flex-col pl-4 font-bold text-white"
         >
-          <h1 className="text-4xl">Marie-Curie-Gymnasium</h1>
-          <h3 className="text-xl">Dallgow-Döberitz</h3>
+          <h1 className="my-0 text-4xl">Marie-Curie-Gymnasium</h1>
+          <h3 className="my-0 text-xl">Dallgow-Döberitz</h3>
         </Link>
       </div>
       <nav className="bg-nav">
