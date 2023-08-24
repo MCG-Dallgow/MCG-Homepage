@@ -3,28 +3,29 @@
 @tailwind utilities;
 
 @layer base {
-    h1 {
-        @apply text-5xl font-bold pb-8
-    }
-    h2 {
-        @apply text-2xl font-bold pt-6 pb-4
-    }
-    h3 {
-        @apply text-xl font-bold
-    }
-    p, li {
-        @apply text-lg text-justify
-    }
-    p {
-        @apply pb-4
-    }
-    a {
-        @apply text-link hover:text-link-active transition-all
-    }
-    li {
-        @apply pb-2
-    }
-    ul {
-        @apply list-inside list-disc pb-2 pl-2
-    }
+  h1 {
+    @apply pb-8 text-5xl font-bold;
+  }
+  h2 {
+    @apply pb-4 pt-6 text-2xl font-bold;
+  }
+  h3 {
+    @apply text-xl font-bold;
+  }
+  p,
+  li {
+    @apply text-justify text-lg;
+  }
+  p {
+    @apply pb-4;
+  }
+  a {
+    @apply text-link transition-all hover:text-link-active;
+  }
+  li {
+    @apply pb-2;
+  }
+  ul {
+    @apply list-inside list-disc pb-2 pl-2;
+  }
 }
