@@ -18,7 +18,7 @@ export default function Header() {
             />
           </Link>
           <div className="flex flex-col justify-center pl-4">
-            <Link href="/" className="font-bold text-white">
+            <Link href="/" className="font-bold text-white hover:text-white">
               <h1 className="py-0 text-4xl">Marie-Curie-Gymnasium</h1>
               <h3 className="py-0 text-xl">Dallgow-Döberitz</h3>
             </Link>
