@@ -5,27 +5,28 @@ import NavLink from "./navlink";
 
 export default function Header() {
   return (
-    <header className="bg-header shadow-black">
-      <div className="mx-auto flex w-2/3 flex-row py-4">
-        <Link href="/">
-          <Image
-            src="/images/mcg-logo.webp"
-            alt="MCG Logo"
-            width="1200"
-            height="1200"
-            className="h-28 w-28 rounded-full"
-          />
-        </Link>
-        <Link
-          href="/"
-          className="my-auto flex flex-col pl-4 font-bold text-white"
-        >
-          <h1 className="my-0 text-4xl">Marie-Curie-Gymnasium</h1>
-          <h3 className="my-0 text-xl">Dallgow-Döberitz</h3>
-        </Link>
+    <header className="bg-header">
+      <div className="flex justify-center">
+        <div className="flex w-2/3 py-4">
+          <Link href="/">
+            <Image
+              src="/images/mcg-logo.webp"
+              alt="MCG Logo"
+              width="1200"
+              height="1200"
+              className="h-28 w-28 rounded-full"
+            />
+          </Link>
+          <div className="flex flex-col justify-center pl-4">
+            <Link href="/" className="font-bold text-white">
+              <h1 className="py-0 text-4xl">Marie-Curie-Gymnasium</h1>
+              <h3 className="py-0 text-xl">Dallgow-Döberitz</h3>
+            </Link>
+          </div>
+        </div>
       </div>
-      <nav className="bg-nav">
-        <ul className="mx-auto mb-0 flex w-2/3 flex-row py-1">
+      <nav className="flex justify-center bg-nav">
+        <ul className="flex w-2/3 gap-8 p-0">
           <NavLink title="Start" href="/" />
           <NavLink title="Unsere Schule" href="/unsere-schule">
             <NavLink title="Schulleben" href="/unsere-schule/schulleben" />
