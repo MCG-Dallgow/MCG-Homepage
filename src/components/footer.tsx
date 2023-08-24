@@ -11,6 +11,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.openstreetmap.org/directions?from=&to=52.54148%2C13.04493#map=15/52.5421/13.0568"
+              className="text-footer-link hover:text-footer-link-active"
             >
               Marie-Curie-Straße 1<br />
               14624 Dallgow-Döberitz
@@ -20,11 +21,29 @@ export default function Footer() {
         <div className="mr-auto">
           <h2 className="mt-0">Kontakt</h2>
           <p className="mb-0">
-            E-Mail: <a href="mailto:mcg@mcg-dallgow.de">mcg@mcg-dallgow.de</a>
+            E-Mail:{" "}
+            <a
+              href="mailto:mcg@mcg-dallgow.de"
+              className="text-footer-link hover:text-footer-link-active"
+            >
+              mcg@mcg-dallgow.de
+            </a>
             <br />
-            Telefon: <a href="tel:03322852520">+49 (0)3322 85 25 20</a>
+            Telefon:{" "}
+            <a
+              href="tel:03322852520"
+              className="text-footer-link hover:text-footer-link-active"
+            >
+              +49 (0)3322 85 25 20
+            </a>
             <br />
-            Fax: <a href="tel:033228525227">+49 (0)3322 85 25 227</a>
+            Fax:{" "}
+            <a
+              href="tel:033228525227"
+              className="text-footer-link hover:text-footer-link-active"
+            >
+              +49 (0)3322 85 25 227
+            </a>
             <br />
           </p>
         </div>

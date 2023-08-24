@@ -19,7 +19,7 @@
         @apply mb-4
     }
     a {
-        @apply text-link hover:text-linkactive transition-all
+        @apply text-link hover:text-link-active transition-all
     }
     li {
         @apply mb-2
