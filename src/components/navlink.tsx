@@ -15,18 +15,18 @@ export default function NavLink({
   const currentRoute = usePathname();
 
   return (
-    <div className="group py-2">
+    <div className="group">
       <Link
         href={href}
         className={
-          "px-2 py-3 text-center text-xl font-semibold transition-all hover:text-active " +
+          "flex px-2 py-2 text-center text-xl font-semibold transition-all hover:text-active " +
           (currentRoute === href ? "text-active" : "text-white")
         }
       >
         {title}
       </Link>
-      <div className="invisible absolute z-10 mt-2 opacity-0 shadow-md transition-opacity group-hover:visible group-hover:opacity-100">
-        <div className="bg-dropdown transition-all hover:bg-dropdownhover">
+      <div className="invisible absolute z-10 opacity-0 shadow-md transition-opacity group-hover:visible group-hover:opacity-100">
+        <div className="bg-dropdown transition-all hover:[&>*]:bg-dropdownhover">
           {children}
         </div>
       </div>
