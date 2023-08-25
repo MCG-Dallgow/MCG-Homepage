@@ -125,19 +125,21 @@ function AgSection({
   return (
     <section>
       <h2>{name}</h2>
-      <table className="text-left [&>*>td]:pl-4">
-        <tr>
-          <th>{title}</th>
-          <td>{person}</td>
-        </tr>
-        <tr>
-          <th>Wann?</th>
-          <td>{time}</td>
-        </tr>
-        <tr>
-          <th>Wo?</th>
-          <td>{place}</td>
-        </tr>
+      <table className="text-left">
+        <tbody>
+          <tr>
+            <th className="min-w-[4rem]">{title}</th>
+            <td className="pl-4">{person}</td>
+          </tr>
+          <tr>
+            <th className="min-w-[4rem]">Wann?</th>
+            <td className="pl-4">{time}</td>
+          </tr>
+          <tr>
+            <th className="min-w-[4rem]">Wo?</th>
+            <td className="pl-4">{place}</td>
+          </tr>
+        </tbody>
       </table>
     </section>
   );
