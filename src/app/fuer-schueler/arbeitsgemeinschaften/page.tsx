@@ -11,7 +11,7 @@ export default function Page() {
         <i>(In der Regel finden AGs nach dem 4. Block statt.)</i>
       </p>
       <p>
-        Folgende Arbeitsgemeinschaften stehen im 2. Halbjahr 2022/23 zur
+        Folgende Arbeitsgemeinschaften stehen im 1. Halbjahr 2023/24 zur
         Auswahl:
       </p>
       <AgSection
@@ -23,23 +23,16 @@ export default function Page() {
       />
       <AgSection
         name="Informatik"
-        person="Herr Plaumann"
-        title="Lehrer"
-        time="Donnerstag 5. Block (15:15 - 17:00 Uhr)"
-        place="Raum 0.62"
-      />
-      <AgSection
-        name="IT Support & Fun"
         person="Herr Sydow"
         title="Lehrer"
         time="Dienstag 4. Block (13:40 - 15:10 Uhr)"
         place=""
       />
       <AgSection
-        name="Schulband"
-        person="Frau Roska"
-        title="Lehrerin"
-        time="Mittwoch 5. Block (15:15 - 16:30 Uhr)"
+        name="Breakdance"
+        person="Herr Krispin"
+        title="Lehrer"
+        time=""
         place=""
       />
       <AgSection
@@ -48,13 +41,6 @@ export default function Page() {
         title="Verantwortliche"
         time="Mittwock 5. Block (15:15 - 17:00 Uhr)"
         place="Aula"
-      />
-      <AgSection
-        name="Töpfern"
-        person="Frau Tumbrägel"
-        title="Lehrerin"
-        time="Dienstag 5. Block (15:15 - 17:00 Uhr)"
-        place=""
       />
       <AgSection
         name="Schülerzeitung"
@@ -68,20 +54,6 @@ export default function Page() {
         person="Herr Haberjoh"
         title="Lehrer"
         time="Dienstag 5. Block (15:15 - 16:30 Uhr)"
-        place=""
-      />
-      <AgSection
-        name="Jugend forscht"
-        person="Frau Schaulies"
-        title="Lehrerin"
-        time=""
-        place=""
-      />
-      <AgSection
-        name="Fitness"
-        person="Herr Heinzel"
-        title="Lehrer"
-        time=""
         place=""
       />
       <AgSection
@@ -99,11 +71,11 @@ export default function Page() {
         place=""
       />
       <AgSection
-        name="Psychologie"
-        person="Herr Dötter"
+        name="Bogensport"
+        person="Herr Sydow"
         title="Lehrer"
-        time="Montag 5. Block (15:30 - 17:00 Uhr)"
-        place=""
+        time="Freitag 5. Block (15:30 - 17:00 Uhr)"
+        place="Markomannenstr. 20, 14624 Dallgow-Döberitz"
       />
     </div>
   );
