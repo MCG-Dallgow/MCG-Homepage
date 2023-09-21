@@ -31,6 +31,7 @@ export default function Header() {
           <NavLink title="Unsere Schule" href="/unsere-schule">
             <NavLink title="Schulleben" href="/unsere-schule/schulleben" />
           </NavLink>
+          <NavLink title="News" href="/news" />
           <NavLink title="Für Schüler" href="/fuer-schueler">
             <NavLink title="Stundenplan" href="/fuer-schueler/stundenplan" />
             <NavLink title="AGs" href="/fuer-schueler/arbeitsgemeinschaften" />

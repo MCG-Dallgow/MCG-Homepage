@@ -7,7 +7,7 @@
     @apply pb-8 text-5xl font-bold;
   }
   h2 {
-    @apply pb-4 pt-6 text-2xl font-bold;
+    @apply pb-4 pt-6 text-3xl font-bold;
   }
   h3 {
     @apply text-xl font-bold;
