@@ -4,7 +4,7 @@ export default function Footer() {
       <section className="flex justify-center bg-header py-16">
         <div className="flex gap-36">
           <div className="">
-            <h2 className="pt-0">Adresse</h2>
+            <h3 className="pt-0">Adresse</h3>
             <p className="pb-0">
               Marie-Curie-Gymnasium
               <br />
@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="">
-            <h2 className="pt-0">Kontakt</h2>
+            <h3 className="pt-0">Kontakt</h3>
             <p className="pb-0">
               E-Mail:{" "}
               <a
