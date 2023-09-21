@@ -18,8 +18,8 @@ export default function Page() {
         name="Schulklima"
         person="Frau Gutschmidt"
         title="Lehrerin"
-        time="Dienstag 5. Block (15:15 - 16:30 Uhr)"
-        place=""
+        time="Montag 5. Block (15:15 - 16:30 Uhr)"
+        place="1.02"
       />
       <AgSection
         name="Informatik"
@@ -46,7 +46,7 @@ export default function Page() {
         name="Schülerzeitung"
         person="Herr Urschel-Sochaczewski"
         title="Lehrer"
-        time="Donnerstag 5. Block (15:15 - 17:00 Uhr)"
+        time="Dienstag 5. Block (15:15 - 17:00 Uhr)"
         place="Mediathek (Raum 0.26)"
       />
       <AgSection
