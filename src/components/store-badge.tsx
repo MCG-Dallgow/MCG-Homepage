@@ -36,7 +36,7 @@ export default function StoreBadge({
 
   return (
     <a href={href} target="_blank" rel="noopener noreferrer">
-      <Image src={badge} alt={alt} height={168 / 2}></Image>
+      <Image src={badge} alt={alt} height={168 / 3}></Image>
     </a>
   );
 }
