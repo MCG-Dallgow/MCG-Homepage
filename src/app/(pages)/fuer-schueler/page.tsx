@@ -55,7 +55,7 @@ export default function Page() {
           Die MCG-App wird eigens von Schülern programmiert, um den Schulalltag
           am MCG zu erleichtern. Zu den Funktionen der App gehören unter anderem
           ein individueller Stunden- und Vertretungsplan, eine Übersicht aller
-          Lehrer und einen auf das MCG zugeschnittenen Notenplaner. Auf dieser
+          Lehrer und ein auf das MCG zugeschnittener Notenplaner. Auf dieser
           Seite findest du weitere Informationen über die App und erfährst, wie
           du sie dir herunterladen kannst.
         </p>
