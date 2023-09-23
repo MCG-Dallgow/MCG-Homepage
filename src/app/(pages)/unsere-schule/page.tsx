@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -68,10 +69,11 @@ export default function Page() {
           </li>
         </ul>
         <p>
-          Das Patenprojekt, die AG Schulklima, viele weitere
-          Arbeitsgemeinschaften und interessante Kooperationspartner in den
-          Bereichen Wissenschaft und Wirtschaft helfen uns bei der Erfüllung
-          dieser Ziele.
+          Das <Link href="/unsere-schule/schulleben#patenprojekt">Patenprojekt</Link>,
+          die AG Schulklima, viele weitere&nbsp;
+          <Link href="/fuer-schueler/arbeitsgemeinschaften">Arbeitsgemeinschaften</Link>
+          &nbsp;und interessante Kooperationspartner in den Bereichen Wissenschaft
+          und Wirtschaft helfen uns bei der Erfüllung dieser Ziele.
         </p>
         <br />
       </section>
@@ -90,6 +92,7 @@ export default function Page() {
           alt="MINT-EC Logo"
           width={980 / 3}
           height={450 / 3}
+          className="rounded-xl"
         />
       </section>
     </div>
