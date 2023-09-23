@@ -43,7 +43,7 @@ export default function Page() {
 
 function IssueCard({ issue }: { issue: number }) {
   return (
-    <Link href={"/fuer-schueler/schuelerzeitung/ausgabe-" + issue}>
+    <Link href={"/fuer-schueler/schuelerzeitung/" + issue}>
       <div className="max-w-sm rounded-2xl bg-gray-200">
         <Image
           className="rounded-t-2xl"
