@@ -34,13 +34,12 @@ export default function Path() {
   const pathname = usePathname().replace(/\/$/, "");
 
   let pathLinks = [];
-  if (pathname == "/") {
-    pathLinks.push(PathLink(pathname));
-  } else {
-    for (let i = 0; i < pathname.split("/").length; i++) {
+  for (let i = 0; i < pathname.split("/").length; i++) {
+    const segment = pathname.split("/").slice(0, i + 1).join("/");
+    if (segment != "") {
       pathLinks.push(<span className="text-link"> &rarr; </span>);
-      pathLinks.push(PathLink(pathname.split("/").slice(0, i + 1).join("/")));
     }
+    pathLinks.push(PathLink(segment));
   }
 
   return <p>{pathLinks}</p>;
