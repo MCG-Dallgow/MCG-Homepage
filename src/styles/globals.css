@@ -23,7 +23,7 @@
     @apply text-link transition-all hover:text-link-active;
   }
   li {
-    @apply pb-2;
+    @apply pb-1;
   }
   ul {
     @apply list-inside list-disc pb-2 pl-2;

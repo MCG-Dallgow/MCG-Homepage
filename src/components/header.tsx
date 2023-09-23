@@ -36,6 +36,7 @@ export default function Header() {
             <NavLink title="Stundenplan" href="/fuer-schueler/stundenplan" />
             <NavLink title="AGs" href="/fuer-schueler/arbeitsgemeinschaften" />
             <NavLink title="Schülerzeitung" href="/fuer-schueler/schuelerzeitung" />
+            <NavLink title="MCG-App" href="/fuer-schueler/mcg-app" />
           </NavLink>
           <NavLink title="Kontakt" href="/kontakt" />
         </ul>
