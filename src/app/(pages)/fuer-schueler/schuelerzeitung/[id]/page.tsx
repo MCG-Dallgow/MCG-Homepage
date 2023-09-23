@@ -11,7 +11,7 @@ export default function Page({ params }: { params: { id: number } }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Download
+          PDF herunterladen
         </Link>
       </p>
       <embed
