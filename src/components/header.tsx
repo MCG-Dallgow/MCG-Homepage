@@ -30,6 +30,7 @@ export default function Header() {
           <NavLink title="Start" href="/" />
           <NavLink title="Unsere Schule" href="/unsere-schule">
             <NavLink title="Schulleben" href="/unsere-schule/schulleben" />
+            <NavLink title="Personal" href="/unsere-schule/personal" />
           </NavLink>
           <NavLink title="News" href="/news" />
           <NavLink title="Für Schüler" href="/fuer-schueler">
