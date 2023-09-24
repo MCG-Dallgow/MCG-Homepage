@@ -27,7 +27,7 @@ function PathLink(path: string) {
       name = words.join(" ");
       break;
   }
-  return <Link href={path == "" ? "/" : path}>{name}</Link>;
+  return <Link href={path == "" ? "/" : path} key={path}>{name}</Link>;
 }
 
 export default function Path() {
@@ -37,7 +37,7 @@ export default function Path() {
   for (let i = 0; i < pathname.split("/").length; i++) {
     const segment = pathname.split("/").slice(0, i + 1).join("/");
     if (segment != "") {
-      pathLinks.push(<span className="text-link"> &rarr; </span>);
+      pathLinks.push(<span className="text-link" key={"pathArrow" + i}> &rarr; </span>);
     }
     pathLinks.push(PathLink(segment));
   }
