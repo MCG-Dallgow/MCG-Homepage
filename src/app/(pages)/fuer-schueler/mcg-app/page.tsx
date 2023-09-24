@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import StoreBadge from "~/components/store-badge";
+
 export default function Page() {
   return (
     <div>
@@ -42,6 +44,9 @@ export default function Page() {
           ihr zum ersten Mal eine APK-Datei installiert, müsst ihr zusätzlich
           das "Installieren von Apps aus unbekannten Quellen" o.Ä. in den
           Einstellungen aktivieren.
+        </p>
+        <p>
+          <StoreBadge store="github" href="https://github.com/MCG-Dallgow/MCG-App/releases" />
         </p>
         <h3>Web App</h3>
         <p>
