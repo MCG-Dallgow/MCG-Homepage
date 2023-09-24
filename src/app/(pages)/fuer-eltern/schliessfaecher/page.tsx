@@ -4,7 +4,7 @@ export default function Page() {
         <h1>Schließfächer am MCG</h1>
         <section>
             <div className="tutorial">
-                <h2>Wie miete ich ein Schließfach?</h2>
+                <h2>Anleitung</h2>
                 <p>
                     Schließfächer können von Schülerinnen und Schülern gemietet werden. Die Miete beträgt 2,60 € pro Monat (31,20 €/ 12 Monate) und mit <Link href="https://www.astradirect.de/schueler">Schutzbrief</Link> 43,20 € pro 12 Monate.
                     <br></br>
