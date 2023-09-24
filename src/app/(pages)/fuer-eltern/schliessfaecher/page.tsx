@@ -6,16 +6,16 @@ export default function Page() {
             <div className="tutorial">
                 <h2>Wie miete ich ein Schließfach?</h2>
                 <p>
-                    Schließfächer können von Schülerinnen und Schülern gemietet werden. Die Miete beträgt 2,60 € pro Monat (31,20 €/ 12 Monate) und mit <a href="https://www.astradirect.de/schueler">Schutzbrief</a> 43,20 € pro 12 Monate.
+                    Schließfächer können von Schülerinnen und Schülern gemietet werden. Die Miete beträgt 2,60 € pro Monat (31,20 €/ 12 Monate) und mit <Link href="https://www.astradirect.de/schueler">Schutzbrief</Link> 43,20 € pro 12 Monate.
                     <br></br>
                     Die Schließfächer werden vom Unternehmen ,,Astradirect" zur Verfügung gestellt.
                 </p>
                 <p>
-                    <a href="https://www.astradirect.de/schliessfaecher/" target="_blank">Hier</a> können Sie sich über die Schließfächer informieren.
+                    <Link href="https://www.astradirect.de/schliessfaecher/" target="_blank">Hier</Link> können Sie sich über die Schließfächer informieren.
                 </p>
                 <br></br>
                 <h2>Wie miete ich ein Schließfach?</h2>
-                <p id="tutorial-step"> 1. Gehen Sie auf die Website von <a href="https://www.astradirect.de/fach-mieten/schule-waehlen">Astradirect</a></p>
+                <p id="tutorial-step"> 1. Gehen Sie auf die Website von <Link href="https://www.astradirect.de/fach-mieten/schule-waehlen">Astradirect</Link></p>
                 <p id="tutorial-step"> 2. Geben Sie bei Ort der Schule "Dallgow-Döberitz" ein und wählen Sie bei dem Namen der Schule das Marie-Curie-Gymnasium</p>
                 <p id="tutorial-step"> 3. Wählen Sie den Standort des Schließfaches (Am Marie Curie Gymnasium können Sie zwischen drei Standorten wählen!)</p>
                 <p id="tutorial-step"> 4. Wählen Sie die gewünschte Schließfachgröße aus</p>
