@@ -31,11 +31,14 @@ export default function Header() {
           <NavLink title="Unsere Schule" href="/unsere-schule">
             <NavLink title="Vorstellung" href="/unsere-schule/vorstellung" />
             <NavLink title="Schulleben" href="/unsere-schule/schulleben" />
+            <NavLink title="Personal" href="/unsere-schule/personal" />
             <NavLink title="Digitale Schule" href="/unsere-schule/digitale-schule" />
           </NavLink>
+          <NavLink title="News" href="/news" />
           <NavLink title="Für Schüler" href="/fuer-schueler">
             <NavLink title="Stundenplan" href="/fuer-schueler/stundenplan" />
             <NavLink title="AGs" href="/fuer-schueler/arbeitsgemeinschaften" />
+            <NavLink title="Schülerzeitung" href="/fuer-schueler/schuelerzeitung" />
             <NavLink title="MCG-App" href="/fuer-schueler/mcg-app" />
           </NavLink>
           <NavLink title="Für Eltern" href="/fuer-eltern">
