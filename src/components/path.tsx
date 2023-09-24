@@ -13,6 +13,9 @@ function PathLink(path: string) {
     case "mcg-app":
       name = "MCG-App";
       break;
+    case "schliessfaecher":
+      name = "Schließfächer";
+      break;
     default:
       name = name
         .replaceAll("-", " ")
